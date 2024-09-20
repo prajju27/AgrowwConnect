@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgrowwConnect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 150%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header, footer {
+            background-color: #2fbad5;
+            text-align: center;
+            padding: 1em;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .container {
+            background-image: url("image2.jpeg");
+            background-size: cover;
+            background-position: 0%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2%;
+        }
+        .farmer, .customer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 45%;
+            margin: 1%;
+        }
+        .farmer img, .customer img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            padding: 2%;
+        }
+        .farmer a, .customer a {
+            box-sizing: border-box;
+            text-align: center;
+            margin-top: 10px;
+            text-decoration: none;
+            padding: 8px;
+            color: rgb(240, 240, 240);
+        }
+        footer,a{
+            text-align: left;
+            font-size: 100%;
+            text-decoration: none;
+            padding: 8%;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AgrowwConnect</h1>
+        <p>Connect farmers and customers directly to buy and sell plants</p>
+    </header>
+    <div class="container">
+        <div class="farmer">
+            <img src="farmer.jpg" alt="Farmer">
+            <a href="farmer.html">Farmer Registration</a>
+            <a href="AfterRegister.html">Already Have an Account?</a>
+        </div>
+        <div class="customer">
+            <img src="cus.png" alt="Customer">
+            <a href="customer.html">Customer Registration</a>
+            <a href="aftercus_register.html">Already Have an Account?</a>
+        </div>
+    </div>
+    <footer>
+For More:
+        <a href="#">Support Us</a>
+        <a href="#">Follow Us</a>
+        <a href="#">Contact Us</a>
+    </footer>
+</body>
+</html>

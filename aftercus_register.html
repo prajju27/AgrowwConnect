@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url("image2.jpeg");
+            background-size: cover;
+            background-repeat: repeat-x;
+            padding: 5px;
+            text-align: center;
+        }
+        header {
+            background-color: rgb(157, 236, 236);
+            padding: 5%;
+            padding-bottom: 5%;
+            width: 50%;
+            margin: auto;
+        }
+        section {
+            background-color: rgb(245, 245, 217);
+            padding: 5%;
+            padding-top: 5%;
+            width: 50%;
+            margin: auto;
+        }
+        form {
+            font-size: 100%;
+            width: 300px;
+            margin: auto;
+        }
+        form label {
+            display: block;
+            margin-top: 20px;
+        }
+        input {
+            width: 80%;
+            padding: 3px;
+            border: 1px solid rgb(18, 16, 16);
+        }
+        input[type="submit"] {
+            width: 100px;
+            height: 35px;
+            margin-top: 20px;
+            border: none;
+            background-color: #ff7200;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: rgb(19, 248, 27);
+            color: rgb(211, 25, 25);
+        }
+    </style>
+</head>
+<body>
+    <header>Please Enter Your Credentials</header>
+    <section>
+        <form method="post" action="login1.php">
+            <label for="customerName">Name :</label>
+            <input type="text" id="customerName" name="customerName" required>
+            <label for="phonenumber">Phone :</label>
+            <input type="phonenumber" id="phonenumber" name="phonenumber" required>
+            <input type="submit" value="Submit"/>
+            <p>Re-register? Go To</p><a href="index.html">HOME</a>
+        </form>
+    </section>
+</body>
+</html>
